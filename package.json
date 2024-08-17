@@ -1,0 +1,32 @@
+{
+  "name": "amber-delight",
+  "displayName": "Amber Delight",
+  "description": "A theme imitating amber/yellow monochrome CRT monitors from the early 90s.",
+  "version": "1.0.0",
+  "publisher": "PrimalSkill",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/primalskill/amber-delight-theme"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "amber yellow theme",
+    "primalskill"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Amber Delight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/amber-delight-color-theme.json"
+      }
+    ]
+  }
+}
