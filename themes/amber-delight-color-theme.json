@@ -379,7 +379,7 @@
 		"editorBracketHighlight.foreground4": "#ffc228",
 		"editorBracketHighlight.foreground5": "#ff8528",
 		"editorBracketHighlight.foreground6": "#ffa028",
-		"editorBracketHighlight.unexpectedBracket.foreground": "#ff1212cc",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#ff0000",
 		//"editorBracketPairGuide.activeBackground1": "#00000000",
 		//"editorBracketPairGuide.activeBackground2": "#00000000",
 		//"editorBracketPairGuide.activeBackground3": "#00000000",
@@ -1017,7 +1017,7 @@
 		{
 			"scope": "variable.parameter",
 			"settings": {
-				"foreground": "#ABB2BF"
+				"foreground": "#ffdeb4"
 			}
 		},
 		{
@@ -1047,7 +1047,7 @@
 		{
 			"scope": "punctuation.definition.comment",
 			"settings": {
-				"foreground": "#5C6370"
+				"foreground": "#707070"
 			}
 		},
 		{
@@ -1331,7 +1331,7 @@
 		{
 			"scope": "source.go storage.type.string",
 			"settings": {
-				"foreground": "#C678DD"
+				"foreground": "#FFDD28"
 			}
 		},
 		{
@@ -1491,7 +1491,7 @@
 		{
 			"scope": "variable.other.readwrite.js,variable.other.readwrite.ts,variable.other.readwrite.tsx",
 			"settings": {
-				"foreground": "#ABB2BF"
+				"foreground": "#FFEFDA"
 			}
 		},
 		{
@@ -3316,7 +3316,7 @@
 		{
 			"scope": "comment, punctuation.definition.comment",
 			"settings": {
-				"foreground": "#545C7D",
+				"foreground": "#707070",
 				"fontStyle": "italic"
 			}
 		},
@@ -3349,7 +3349,8 @@
 		{
 			"scope": "comment.line.double-slash,comment.block.documentation",
 			"settings": {
-				"fontStyle": "italic"
+				"fontStyle": "italic",
+				"foreground": "#707070"
 			}
 		},
 		{
